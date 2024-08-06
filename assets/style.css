@@ -1,0 +1,125 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-right: 2vw;
+}
+
+.header-link {
+    text-decoration: none;
+    color: rgb(178, 247, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.title {
+    color: rgb(247, 146, 146);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.input {
+    min-width: 50vw;
+    height: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #32CD32;
+    border-radius: 10px;
+    padding: 8px 10px;
+    outline: none;
+    box-shadow: 0 0 10px #32CD32;
+    transition: all 0.3s ease-in-out;
+}
+
+.input:focus {
+    box-shadow: 0 0 15px #32CD32, 0 0 25px #32CD32;
+    background-color: #444444;
+}
+
+.button {
+    margin: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #cd3232;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px #cd3232;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+    box-shadow: 0 0 15px #cd3232, 0 0 25px #cd3232;
+    background-color: #444444;
+}
+
+.image {
+    width: 40vh;
+    height: 40vh;
+    margin: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 2px solid #cd3232;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 0 10px #cd3232;
+    transition: all 0.3s ease-in-out;
+}
+
+.image:hover,
+.image:focus {
+    box-shadow: 0 0 15px #cd3232, 0 0 25px #cd3232;
+    background-color: #444444;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
